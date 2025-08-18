@@ -1,7 +1,7 @@
 {
   "name": "react-native-svga-player",
   "title": "React Native Svga Player",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "svga player for react native",
   "main": "index.js",
   "scripts": {
@@ -20,7 +20,17 @@
   },
   "license": "MIT",
   "licenseFilename": "LICENSE",
-  "readmeFilename": "README.md",
+  "files": [
+    "android/src",
+    "!android/src/main/java/AndroidManifest.xml",
+    "ios/**/*.h",
+    "ios/**/*.m",
+    "index.js",
+    "index.d.ts",
+    "react-native-svga-player.podspec",
+    "README.md",
+    "LICENSE"
+  ],
   "peerDependencies": {
     "react": "*",
     "react-native": "*"
