@@ -20,8 +20,8 @@ Pod::Spec.new do |s|
   s.requires_arc = true
 
   s.dependency "React"
-  # Profile文件中手动添加 pod 'SVGAPlayer', :git => 'https://github.com/LnpUpmQ/SVGAPlayer-iOS.git'
-  # s.dependency "SVGAPlayer", :git => 'https://github.com/LnpUpmQ/SVGAPlayer-iOS.git'
+  # Profile文件中手动添加 pod 'SVGAPlayer', :git => 'https://github.com/LnpUpmQ/SVGAPlayer-iOS.git' 修复bug
+  s.dependency "SVGAPlayer"
 
 end
 
